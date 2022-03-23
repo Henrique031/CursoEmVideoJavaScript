@@ -1,0 +1,25 @@
+body {
+    background: blue;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px; /*arredondamento da borda*/
+    padding: 15px; /*preenchimento ou comprimento*/
+    height: 400px; /*altura*/
+    width: 500px; /*lagura*/
+    margin: auto; /*Margem*/
+    box-shadow: 5px 5px 5px black; /*SOMBRA*/
+}
+
+footer { /*Roda pé*/
+    text-align: center;
+    color: white;
+    font: italic;
+}

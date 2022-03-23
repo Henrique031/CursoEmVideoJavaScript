@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0"><!--min e max de números--><!--chacked: mostrar a bolihha já seecionada.-->
+            </p>
+            <p>Sexo :
+                <input type="radio" name="radsex" id="mas" checked> <!--chacked: mostrar a bolihha já marcada.--><!--rario é aquela bolinha de assinalar-->
+                <label for="mas">Maculino</label>
+                <input type="radio" name="radsex" id="fem"><!--name='' tem que ser o mesmo nome, se não, vai da pra selecionar as duas opções-->
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()"><!--Eu tenho método chamado verificar, que quando eu clicar no botão ele vai disparar um evendo chamado verificar--><!--"Verifica()" é um método-->
+            </p>
+            <div id="imagem">
+
+            </div>
+        </div>
+        <div id="res">
+            Preencha os dados a cima para ver o resultado!
+        </div>
+
+        <!-- <div id="imagem"></div> -->
+        
+    </section>
+    <footer>
+        <p>&copy; SóLendas</p>
+    </footer> 
+    <script src="scripTest.js"> //script em arquivos separados/ // JavaScript externo
+    </script> 
+
+    
+</body>
+</html>

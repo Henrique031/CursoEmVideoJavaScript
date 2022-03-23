@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo sobre o DOM</title>
+    <style>
+        body{
+            background-color: grey;
+            color: white;
+            font: normal 18 pt arial;
+        }
+    </style>
+</head>
+<body>
+    <H1>Aprendizado DOM</H1>
+    <p>UM lugar pra aprender é aqui</p>
+    <p>Não perca <strong>aula a mais</strong> </p>
+    <div id = 'msg'>Clique em mim</div>
+    <script>
+    var d = window.document.getElementById('msg')
+    var corpo = window.document.body
+    var p1 =  window.document.getElementsByTagName('p')[0]
+    var h = window.document.querySelector("div#msg")
+    d.style.color = 'white'
+    p1.style.color = 'black'
+    corpo.style.background = 'blue'
+    d.background = 'green'
+    d.innerText = 'Estou aguardando.....88'
+    
+    // window.document.write('Está escrito assiim: ' + p1.innerText)
+    </script>
+</body>
+  </html>

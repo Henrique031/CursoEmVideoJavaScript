@@ -1,0 +1,25 @@
+body {
+    background: blue;
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white; /*Cor de fundo*/
+    border-radius: 20px; /*arredondamento das bordas*/
+    padding: 100px; /*Comprimento*/
+    width: 500px; /*largura*/
+    height: 300px; /*altura*/
+    margin: auto; /*Margem*/
+    box-shadow: 5px 5px 5px black; /*SOMBRA*/
+}
+
+footer { /*Roda pé*/
+    text-align: center; /*Alinhamento de texto*/
+    color: white;
+    font: italic;
+}
