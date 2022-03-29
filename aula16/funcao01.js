@@ -1,9 +1,9 @@
-function parametro(n) {
-   if (n%2==0){
+function função(MeuParametro) {
+   if (MeuParametro%2==0){
        return 'par'
    } else {
        return 'ímpar'
    }
 }
-let res = parametro(11)
-console.log(res)
+let res = função(2); //( Esse 11 é MeuParametro, que vai ser jogado lá para cima (MeuParametro)) // chamando a function (lá em cima)(nome da função "função")
+console.log(res);
